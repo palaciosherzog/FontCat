@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <menu id="main_menu">
+        <section>
+            <item>
+                <attribute name="label" translatable="yes">_Save</attribute>
+                <attribute name="action">win.save</attribute>
+            </item>
+        </section>
+        <section>
+            <item>
+                <attribute name="label" translatable="yes">_Print PDF</attribute>
+                <attribute name="action">win.print</attribute>
+            </item>
+        </section>
+        <section>
+            <item>
+                <attribute name="label" translatable="yes">Show/_Hide Tags</attribute>
+                <attribute name="action">win.hide_tags</attribute>
+            </item>
+        </section>
+        <section>
+            <item>
+                <attribute name="label" translatable="yes">Set _Columns</attribute>
+                <attribute name="action">win.set_columns</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">Set Si_ze</attribute>
+                <attribute name="action">win.set_size</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">Set _Text</attribute>
+                <attribute name="action">win.set_text</attribute>
+            </item>
+        </section>
+    </menu>
+</interface>
